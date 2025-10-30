@@ -4,6 +4,10 @@ vim.g.maplocalleader = "\\"
 local map = vim.keymap.set
 local opts = { noremap = true, silent = true }
 
+-- Better exiting, C-c > esc
+map("i", "C-c", "<Esc>", opts)
+map("v", "C-c", "<Esc>", opts)
+
 -- More consistant navigation
 -- Replace J/K behavior
 map("n", "J", "<C-e>", opts)  -- Scroll screen down
