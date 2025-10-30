@@ -13,3 +13,9 @@ map("n", "K", "<C-y>", opts)  -- Scroll screen up
 -- map("n", "<leader>w", ":w<CR>", opts)
 -- map("n", "<leader>q", ":q<CR>", opts)
 -- map("n", "<leader>h", ":nohlsearch<CR>", opts)
+
+-- INSERT MODE --
+-- AI stuff
+map("i", "<A-i>", function()
+  require("copilot.suggestion").accept()
+end, { desc = "Request Copilot suggestion" })
