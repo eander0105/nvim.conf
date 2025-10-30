@@ -11,7 +11,9 @@ map("v", "C-c", "<Esc>", opts)
 -- More consistant navigation
 -- Replace J/K behavior
 map("n", "J", "<C-e>", opts)  -- Scroll screen down
+map("v", "J", "<C-e>", opts)  -- Scroll screen down (visual)
 map("n", "K", "<C-y>", opts)  -- Scroll screen up
+map("v", "K", "<C-y>", opts)  -- Scroll screen up (visual)
 
 -- Suggested by gipity, might add later
 -- map("n", "<leader>w", ":w<CR>", opts)
