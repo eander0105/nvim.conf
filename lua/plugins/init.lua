@@ -12,6 +12,7 @@ return {
   -- TODO: split plugins.files into their own files
   { import = "plugins.files" },
   { import = "plugins.harpoon" },
+  { import = "plugins.persistence" },
 
   -- Coding, LSP, autocomplete etc
   -- TODO: split plugins.coding into thier own files
