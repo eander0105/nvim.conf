@@ -12,4 +12,5 @@ return {
 
   -- Coding, LSP, autocomplete etc
   { import = "plugins.coding" },
+  { import = "plugins.autopairs" },
 }
